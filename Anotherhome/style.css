@@ -1,5 +1,6 @@
 body{
     padding-top: 4px;
+    overflow-x: hidden;
 }
 
 .nav-item{
