@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!--CDN Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!--Feather-->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <title>Home Screen</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand mb-0 h1" href="#">ZeRoad BIKE SHOP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              BIKE'S Category
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Mini Velo</a></li>
+              <li><a class="dropdown-item" href="#">Fix Gear</a></li>
+              <li><a class="dropdown-item" href="#">Road Bike</a></li>
+              <li><a class="dropdown-item" href="#">Mountain Bike</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Bike's Frame</a></li>
+              <li><a class="dropdown-item" href="#">Bike's Groupset</a></li>
+              <li><a class="dropdown-item" href="#">Bike's wheelset</a></li>
+              <li><a class="dropdown-item" href="#">Bike's sitpost</a></li>
+              <li><a class="dropdown-item" href="#">handlebar and dropbar</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Help
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">FAQ</a></li>
+              <li><a class="dropdown-item" href="#">Ask Our CS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Maintainance</a></li>
+              <li><a class="dropdown-item" href="#">Build Your Own Bike</a></li>
+            </ul>
+          </li>
+          <li class="nav-item" id="search">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">
+                <i data-feather="search"></i>
+              </button>
+            </form>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i data-feather="shopping-cart"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i data-feather="bell"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">
+              <i data-feather="mail"></i>
+            </a>
+          </li>
+          <li class="vr"></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i data-feather="user"></i>
+              Log In
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <h6>Email</h6>
+                <form action="">
+                  <input type="email" placeholder="email@example">
+                </form>
+                <h6>Password</h6>
+                <form action="">
+                  <input type="password">
+                  <input type="checkbox"> remember me
+                </form>
+                <br>
+                <button class="btn btn-outline-success" type="submit">
+                  submit
+                </button>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#" style="color:blue">
+                  Sign Up
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  Forgot Password
+                </a></li>
+          </li>
+        </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i data-feather="globe"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">English (US)</a></li>
+            <li><a class="dropdown-item" href="#">English (UK)</a></li>
+            <li><a class="dropdown-item" href="#">Indonesia</a></li>
+            <li><a class="dropdown-item" href="#">China</a></li>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+  <div class="countainer-carousel">
+    <h1>Our New Arrival</h1>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/Tugas/Assets/Tarmac SL7.jpg" class="d-block w-100" alt="Tarmac SL7" id="tarmacsl7">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Specialized S-Work Tarmac SL 7</h5>
+            <p><b>ONE BIKE TO RULE THEM ALL</b></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/Tugas/Assets/Dogma F.jpg" class="d-block w-100" alt="Dogma F" id="dogmaf">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Pinarello Dogma F</h5>
+            <p>THE ART OF BALANCE</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/Tugas/Assets/Madone slr 7.jpg" class="d-block w-100" alt="Madone slr 7 gen 7" id="madoneslr7">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Trek Madone SLR 7 Gen 7</h5>
+            <p>The Ultimate Race Bike</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/Tugas/Assets/CheckpointSLR9eTap.jpg" class="d-block w-100" alt="Madone slr 7 gen 7"
+            id="madoneslr7">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Trek Checkpoint SLR 9</h5>
+            <p>Built for crushing the world's greatest gravel races</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <br>
+
+  <div class="container-card">
+    <h1>Our High End Products</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="/Tugas/Assets/Dogma F.jpg" class="card-img-top" alt="Dogma F">
+          <div class="card-body">
+            <h5 class="card-title"><b>Pinarello Dogma F</b></h5>
+            <p class="card-text"><b>THE ART OF BALANCE</b><br>
+              Seven of the last 11 Tours de France have been conquered on a DOGMA, and the latest generation is now
+              ready to continue that legacy of success. This is the culmination of all of our skill and experience, a
+              masterpiece of engineering that offers advancements in handling, comfort, and aerodynamics all wrapped in
+              a package that can climb, descend, and sprint with equal flair.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/Tugas/Assets/Tarmac SL7.jpg" class="card-img-top" alt="Tarmac SL 7">
+          <div class="card-body">
+            <h5 class="card-title"><b>Specialized S-Work Tarmac SL 7</b></h5>
+            <p class="card-text"><b>ONE BIKE TO RULE THEM ALL</b><br>
+              AERO, STIFF, LIGHT.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/Tugas/Assets/Madone slr 7.jpg" class="card-img-top" alt="Madone slr 7">
+          <div class="card-body">
+            <h5 class="card-title"><b>Trek Madone SLR 7 Gen 7</b></h5>
+            <p class="card-text"><b>The Ultimate Race Bike</b><br>
+              Madone SLR 7 is the ultimate race machine. An 800 Series OCLV Carbon frame with exclusive IsoFlow
+              technology adds an aerodynamic advantage, cuts weight, and smooths the road ahead. It's built up with the
+              ultra-fast precision shifting of Shimano's wireless electronic Ultegra Di2 drivetrain and deep carbon
+              wheels that cut through the wind.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="/Tugas/Assets/Dogma F.jpg" class="card-img-top" alt="Dogma F">
+          <div class="card-body">
+            <h5 class="card-title"><b>Pinarello Dogma F</b></h5>
+            <p class="card-text"><b>THE ART OF BALANCE</b><br>
+              Seven of the last 11 Tours de France have been conquered on a DOGMA, and the latest generation is now
+              ready to continue that legacy of success. This is the culmination of all of our skill and experience, a
+              masterpiece of engineering that offers advancements in handling, comfort, and aerodynamics all wrapped in
+              a package that can climb, descend, and sprint with equal flair.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/Tugas/Assets/Tarmac SL7.jpg" class="card-img-top" alt="Tarmac SL 7">
+          <div class="card-body">
+            <h5 class="card-title"><b>Specialized S-Work Tarmac SL 7</b></h5>
+            <p class="card-text"><b>ONE BIKE TO RULE THEM ALL</b><br>
+              AERO, STIFF, LIGHT.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/Tugas/Assets/Madone slr 7.jpg" class="card-img-top" alt="Madone slr 7">
+          <div class="card-body">
+            <h5 class="card-title"><b>Trek Madone SLR 7 Gen 7</b></h5>
+            <p class="card-text"><b>The Ultimate Race Bike</b><br>
+              Madone SLR 7 is the ultimate race machine. An 800 Series OCLV Carbon frame with exclusive IsoFlow
+              technology adds an aerodynamic advantage, cuts weight, and smooths the road ahead. It's built up with the
+              ultra-fast precision shifting of Shimano's wireless electronic Ultegra Di2 drivetrain and deep carbon
+              wheels that cut through the wind.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <H4>In Your Dream Street. No. 136, Heaven <br>
+      <i data-feather="instagram"></i>
+      <a href="#">@ZeRoad BIKE</a><br>
+      <i data-feather="phone"></i>
+      (+666)85347683136
+    </H4>
+  </footer>
+  <script>
+    feather.replace()
+  </script>
+</body>
+
+</html>
